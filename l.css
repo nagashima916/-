@@ -99,7 +99,7 @@ h2:after {
 	display:none;
 }
 
-#a{
+#a,#text{
 	opacity:0;
 }
 #aboutContent{
