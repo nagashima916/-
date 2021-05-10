@@ -338,10 +338,11 @@ footer{
 	grid-area:footer;
 	background:rgb(198, 224, 231);
 	text-align:center;
+	width:20%;
+	margin:0 auto;
 }
 
 footer ul{
-	width:80%;
 	display:flex;
 	justify-content:space-between;
 	padding:50px;
@@ -350,6 +351,7 @@ footer ul{
 
 footer ul li{
 	list-style-type:none;
+	border-right:1px solid #515151;
 	
 }
 footer ul li a{
@@ -621,9 +623,6 @@ margin:0 auto;
 	margin:0 auto;
 }
 
-footer ul{
-	width:40%;
-}
 
 .workContent,img{
 	margin-left:auto;
