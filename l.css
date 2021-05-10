@@ -343,6 +343,8 @@ footer{
 }
 
 footer ul{
+	width:100%;
+	margin:0 auto;
 	display:flex;
 	padding:20px 50px;
 	text-align:center;
@@ -350,12 +352,13 @@ footer ul{
 
 footer ul li{
 	list-style-type:none;
-	border-right:1px solid #515151;
 	
 }
 footer ul li a{
 	text-decoration:none;
 	color:#515151;
+	border-right:1px solid #515151;
+	padding:0 3px;
 }
 
 footer ul li a:hover{
