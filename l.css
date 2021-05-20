@@ -369,6 +369,10 @@ footer p{
 	width:20%;
 	margin:0 auto;
 }
+
+#footermenu{
+	width:100px;
+}
 /*共通css ここから*/
 /*work01*/
 #progress-content{
