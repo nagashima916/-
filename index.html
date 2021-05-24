@@ -11,12 +11,17 @@
   $(window).on('load',function(){
       $('body').removeClass('css-st');
   });
+	  
+$(".openbtn1").click(function () {
+    $(this).toggleClass('active');
+});
   </script>
 <div id="a">}</div>
 </head>
 <body id="body_main">
 <header>
 <h1>NAGASHIMA MANAMI</h1>
+<div class="openbtn1"><span></span><span></span><span></span></div>
 <nav>
 	<ul>
 		<li><a href=" #about"><ruby><rb>about me?</rb><rt>私について</rt></ruby></a></li>
@@ -159,5 +164,6 @@
 <p> NAGASHIMA MANAMI</p>
  <p><small>@2021 nagashima manami</small></p>
 	</footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
 </body>
 </html>
